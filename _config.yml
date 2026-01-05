@@ -1,0 +1,19 @@
+title: Sun Lab
+email: sunw37@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Sun Lab @ Cornell
+baseurl: "/sunlab" # the subpath of your site, e.g. /blog
+url: "https://neuroai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: None
+github_username: neuroai
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compressed
+
+# Custom CSS
+custom_css: /assets/css/custom.css

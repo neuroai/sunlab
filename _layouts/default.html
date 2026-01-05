@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sun Lab - NeuroAI Research at Cornell University. Investigating biological and artificial intelligence through systems neuroscience and AI.">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fonts: Cormorant Garamond (elegant serif) + Source Sans 3 (clean body) -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/brain_logo.png">
+
+  <!-- Theme initialization (prevent flash) -->
+  <script>
+    (function() {
+      const stored = localStorage.getItem('theme');
+      const theme = stored || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="{{ site.baseurl }}/" class="site-logo" aria-label="Sun Lab Home">
+        <img src="{{ site.baseurl }}/brain_logo.png" alt="" aria-hidden="true" class="logo-img">
+        <span class="logo-text">Sun Lab</span>
+      </a>
+
+      <nav class="site-nav" role="navigation" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul id="nav-menu" class="nav-list">
+          <li><a href="{{ site.baseurl }}/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a></li>
+          <li><a href="{{ site.baseurl }}/people" {% if page.url == "/people" or page.url == "/people/" %}aria-current="page"{% endif %}>People</a></li>
+          <li><a href="{{ site.baseurl }}/research" {% if page.url == "/research" or page.url == "/research/" %}aria-current="page"{% endif %}>Research</a></li>
+          <li><a href="{{ site.baseurl }}/publications" {% if page.url == "/publications" or page.url == "/publications/" %}aria-current="page"{% endif %}>Publications</a></li>
+          <li><a href="{{ site.baseurl }}/code" {% if page.url == "/code" or page.url == "/code/" %}aria-current="page"{% endif %}>Code</a></li>
+          <li><a href="{{ site.baseurl }}/contact" {% if page.url == "/contact" or page.url == "/contact/" %}aria-current="page"{% endif %}>Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="theme-toggle-wrapper">
+        <button class="theme-toggle" aria-label="Toggle between light and dark mode" role="switch" aria-checked="false">
+          <span class="theme-toggle-track">
+            <span class="theme-toggle-option theme-toggle-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              <span>Light</span>
+            </span>
+            <span class="theme-toggle-option theme-toggle-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+              <span>Dark</span>
+            </span>
+            <span class="theme-toggle-slider"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="site-main" role="main">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="{{ site.baseurl }}/cornell_logo.svg" alt="Cornell University" class="cornell-logo">
+        <p class="footer-affiliation">Department of Neurobiology and Behavior<br>Cornell University</p>
+      </div>
+      <div class="footer-links">
+        <a href="{{ site.baseurl }}/contact">Contact Us</a>
+        <a href="https://github.com/Sun-Lab-NBB" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <p class="footer-copyright">&copy; {{ site.time | date: "%Y" }} Sun Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Theme Toggle Script -->
+  <script src="{{ site.baseurl }}/assets/js/theme.js" defer></script>
+
+  <!-- Mobile Nav Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.querySelector('.nav-list');
+
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', function() {
+          const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+          navToggle.setAttribute('aria-expanded', !isExpanded);
+          navMenu.classList.toggle('nav-open');
+        });
+      }
+    });
+  </script>
+</body>
+</html>
