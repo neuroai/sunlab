@@ -67,69 +67,16 @@ title: Publications
       <p class="publication-venue">Cell Reports 31 (4), 2020</p>
     </article>
 
-    <h2 class="publication-year">2019</h2>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://www.nature.com/articles/s41586-019-1781-3" target="_blank" rel="noopener noreferrer">The structures and gating mechanism of human calcium homeostasis modulator 2</a></h3>
-      <p class="publication-authors">W. Choi, N. Clemente, W. Sun, J. Du, W. Lü</p>
-      <p class="publication-venue">Nature 576 (7785), 163-167, 2019</p>
-    </article>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://www.jove.com/t/58754" target="_blank" rel="noopener noreferrer">Expression and purification of the human lipid-sensitive cation channel TRPC3 for structural determination by single-particle cryo-electron microscopy</a></h3>
-      <p class="publication-authors">E. Haley, W. Choi, C. Fan, W. Sun, J. Du, W. Lü</p>
-      <p class="publication-venue">JoVE (Journal of Visualized Experiments), e58754, 2019</p>
-    </article>
-
-    <h2 class="publication-year">2018</h2>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://pubmed.ncbi.nlm.nih.gov/30227149/" target="_blank" rel="noopener noreferrer">Incomplete block of NMDA receptors by intracellular MK-801</a></h3>
-      <p class="publication-authors">W. Sun, J. M. Wong, J. A. Gray, B. C. Carter</p>
-      <p class="publication-venue">Neuropharmacology 143, 122-129, 2018</p>
-    </article>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://www.nature.com/articles/s41586-018-0558-4" target="_blank" rel="noopener noreferrer">Architecture of the TRPM2 channel and its activation mechanism by ADP-ribose and calcium</a></h3>
-      <p class="publication-authors">Y. Huang, P. A. Winkler, W. Sun, W. Lü, J. Du</p>
-      <p class="publication-venue">Nature 562 (7725), 145-149, 2018</p>
-    </article>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://elifesciences.org/articles/36852" target="_blank" rel="noopener noreferrer">Structure of the human lipid-gated cation channel TRPC3</a></h3>
-      <p class="publication-authors">C. Fan, W. Choi, W. Sun, J. Du, W. Lu</p>
-      <p class="publication-venue">eLife, 2018</p>
-    </article>
-
-    <h2 class="publication-year">2017</h2>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://www.nature.com/articles/nature24674" target="_blank" rel="noopener noreferrer">Electron cryo-microscopy structure of a human TRPM4 channel</a></h3>
-      <p class="publication-authors">P. A. Winkler, Y. Huang, W. Sun, J. Du, W. Lü</p>
-      <p class="publication-venue">Nature 552 (7684), 200-204, 2017</p>
-    </article>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://www.cell.com/neuron/fulltext/S0896-6273(17)30201-5" target="_blank" rel="noopener noreferrer">Allosteric interactions between NMDA receptor subunits shape the developmental shift in channel properties</a></h3>
-      <p class="publication-authors">W. Sun, K. B. Hansen, C. E. Jahr</p>
-      <p class="publication-venue">Neuron 94 (1), 58-64. e3, 2017</p>
-    </article>
-
-    <h2 class="publication-year">2014</h2>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://pubmed.ncbi.nlm.nih.gov/24768447/" target="_blank" rel="noopener noreferrer">Glutamate transporter control of ambient glutamate levels</a></h3>
-      <p class="publication-authors">W. Sun, D. Shchepakin, L. V. Kalachev, M. P. Kavanaugh</p>
-      <p class="publication-venue">Neurochemistry International 73, 146-151, 2014</p>
-    </article>
-
-    <h2 class="publication-year">2011</h2>
-
-    <article class="publication-item">
-      <h3 class="publication-title"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0023765" target="_blank" rel="noopener noreferrer">Specificity and actions of an arylaspartate inhibitor of glutamate transport at the Schaffer collateral-CA1 pyramidal cell synapse</a></h3>
-      <p class="publication-authors">W. Sun, K. M. Hoffman, D. C. Holley, M. P. Kavanaugh</p>
-      <p class="publication-venue">PLoS One 6 (8), e23765, 2011</p>
-    </article>
+    <div class="previous-works-section">
+      <h2 class="publication-year">Previous Works</h2>
+      <p class="previous-works-text">
+        For earlier publications in structural biology, ion channel biophysics, and synaptic physiology, see the complete publication list on
+        <a href="https://scholar.google.com/citations?user=l3xzSCcAAAAJ" target="_blank" rel="noopener noreferrer" class="google-scholar-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+          Google Scholar
+        </a>
+      </p>
+    </div>
 
   </div>
 </div>
