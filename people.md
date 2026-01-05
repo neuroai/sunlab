@@ -23,18 +23,18 @@ title: People
           <a href="mailto:ws467@cornell.edu" class="person-email">ws467@cornell.edu</a>
         </article>
         <article class="person-card">
-          <img src="/sunlab/ivan-kondratyev.png" alt="Ivan Kondratyev" class="person-photo">
-          <h3 class="person-name">Ivan Kondratyev</h3>
-          <p class="person-role">PhD Student</p>
-          <p class="person-affiliation"><a href="https://nbb.cornell.edu/" target="_blank" rel="noopener noreferrer">Neurobiology and Behavior</a></p>
-          <a href="mailto:ik278@cornell.edu" class="person-email">ik278@cornell.edu</a>
-        </article>
-        <article class="person-card">
           <img src="/sunlab/chelsea_v2.jpeg" alt="Chelsea Strawder" class="person-photo">
           <h3 class="person-name">Chelsea Strawder</h3>
           <p class="person-role">PhD Student</p>
           <p class="person-affiliation"><a href="https://nbb.cornell.edu/" target="_blank" rel="noopener noreferrer">Neurobiology and Behavior</a></p>
           <a href="mailto:cs963@cornell.edu" class="person-email">cs963@cornell.edu</a>
+        </article>
+        <article class="person-card">
+          <img src="/sunlab/ivan-kondratyev.png" alt="Ivan Kondratyev" class="person-photo">
+          <h3 class="person-name">Ivan Kondratyev</h3>
+          <p class="person-role">PhD Student</p>
+          <p class="person-affiliation"><a href="https://nbb.cornell.edu/" target="_blank" rel="noopener noreferrer">Neurobiology and Behavior</a></p>
+          <a href="mailto:ik278@cornell.edu" class="person-email">ik278@cornell.edu</a>
         </article>
       </div>
     </section>
