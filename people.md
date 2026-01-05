@@ -30,7 +30,7 @@ title: People
           <a href="mailto:cs963@cornell.edu" class="person-email">cs963@cornell.edu</a>
         </article>
         <article class="person-card">
-          <img src="/sunlab/ivan-kondratyev.png" alt="Ivan Kondratyev" class="person-photo">
+          <img src="/sunlab/IK_NBB.png" alt="Ivan Kondratyev" class="person-photo">
           <h3 class="person-name">Ivan Kondratyev</h3>
           <p class="person-role">PhD Student</p>
           <p class="person-affiliation"><a href="https://nbb.cornell.edu/" target="_blank" rel="noopener noreferrer">Neurobiology and Behavior</a></p>
